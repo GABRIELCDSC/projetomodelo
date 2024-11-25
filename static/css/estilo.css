@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(179, 48, 48);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 100vw;
+    min-height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+table, thead, tbody{
+    width: 80%;
+}
+
+tr, li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 6vh;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+th, td{
+    min-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(179, 48, 48);
+    border:none;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(146, 48, 48, 1);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid white;
+}
+
+.btnv{
+    background-color: rgb(179, 48, 48);
+    border:none;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnv:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(146, 48, 48, 1);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid white;
+}
+
+ul{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+form>p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.logo{
+    width: 20vw;
+    height: 10vh;
+}
+
+.btnacesso{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
